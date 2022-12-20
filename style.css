@@ -1,0 +1,145 @@
+.title{
+    background-color: rgb(244, 206, 160);
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 5px 2px white;
+    padding: 20px;
+}
+.mm{
+height: 50px;
+width: 50px;
+}
+button{
+    background-color: rgb(8, 8, 143);
+    color: aliceblue;
+    font-size: 1.5em;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top:150px;
+}
+body{
+    background-image: url(./bground.jpg);
+    background-size: cover;
+}
+
+.box1{
+    height: 100px;
+    width: 20%;
+    background-color: green;
+    margin: 20px;
+    animation-name: ani1;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+
+}
+.box2{
+    height: 100px;
+    width: 20%;
+    background-color: red;
+    margin: 20px;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-name: ani2;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    
+}
+.box3{
+    height: 100px;
+    width: 20%;
+    background-color:green ;
+    margin: 20px;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-name: ani3;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+.box4{
+    height: 100px;
+    width: 20%;
+    background-color: red;
+    margin: 20px;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    animation-name: ani4;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+.box5{
+    height: 100px;
+    width: 20%;
+    background-color:green ;
+    margin: 20px;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-name: ani5;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+@keyframes ani1{
+    0%{
+          transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(500px);
+    }
+ 
+    
+}
+@keyframes ani2{
+    0%{
+          transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(500px);
+    }
+ 
+    
+}
+@keyframes ani3{
+    0%{
+          transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(500px);
+    }
+ 
+    
+}
+@keyframes ani4{
+    0%{
+          transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(500px);
+    }
+ 
+    
+}
+@keyframes ani5{
+    0%{
+          transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(500px);
+    }
+ 
+    
+}
+@media screen and (max-width: 340px){
+    button{
+        margin-top: 10px;
+        font-size: small;
+    }
+    .title{
+        display: block;
+    }
+}
